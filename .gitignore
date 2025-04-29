@@ -1,0 +1,11 @@
+# Ignorar pastas de dados e saída
+datasets/
+output/
+
+# Ignorar o ambiente virtual
+env/
+
+# Ignorar arquivos grandes específicos
+*.csv
+*.xlsx
+*.png
