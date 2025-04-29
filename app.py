@@ -1,5 +1,18 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+
+# Definir os caminhos das pastas
+pastas = [
+    './datasets',
+    './output',
+    './env'
+]
+
+# Criar as pastas se não existirem
+for pasta in pastas:
+    os.makedirs(pasta, exist_ok=True)
+
 
 caminho_dados = "./datasets/2023_Viagem.csv"
 caminho_saida_tabela = './output/tabela_2023.xlsx'
