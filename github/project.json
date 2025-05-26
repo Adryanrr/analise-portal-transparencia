@@ -1,0 +1,14 @@
+{
+  "destaques": [
+    "Foco na transparência dos gastos públicos",
+    "Geração de relatórios consolidados",
+    "Visualizações gráficas para facilitar a interpretação"
+  ],
+  "status": "Concluído",
+  "principaisFuncionalidades": [
+    "Análise de dados de viagens de 2023",
+    "Geração de gráficos por cargo público",
+    "Exportação de relatórios em Excel"
+  ],
+  "tecnologias": ["Python", "Pandas", "Matplotlib"]
+}
